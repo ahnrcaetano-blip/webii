@@ -1,9 +1,8 @@
-body {
-    /* background: url('../_imagens/aang.jpg'); */
+/* body {
+    background: url('../_imagens/aang.jpg'); 
     background-color: aqua;
     background-size: cover; 
-}
-
+}*/
  body {
     background-color: rgb(250, 248, 248);
     color: black;
@@ -11,21 +10,18 @@ body {
     text-align: center;
     transition: 0.4;
 } 
-
 body.dark-mode {
     background-color: #121212;
-    color: #ffffff;
+    color: #6be5b2;
     font-family: Arial, Helvetica, sans-serif;
 } 
 h1 { 
-    color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: Arial, sans-serif;
     background-color: rgba(240, 248, 255, 0.200);
     text-align: center;
 }
 p {
-    color: rgb(0, 0, 0);
     font-size: 18px;
     background-color: rgba(240, 248, 255, 0.200);
     font-family: Arial, sans-serif;
@@ -66,8 +62,14 @@ div.container {
   height: 80%;           /* Altura da tela cheia para exemplo */
 }
 img#darkmode {
-  max-width: 100%;
-  height: auto;
+    width: 960px;
+    height: auto;
+    margin: 10px;
+}
+img#cartas {
+    width: 200px;
+    height: auto;
+    margin: 10px;
 }
 /* button#toggle {
    position: fixed;
